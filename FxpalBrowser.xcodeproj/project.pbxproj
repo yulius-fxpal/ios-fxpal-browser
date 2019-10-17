@@ -14,6 +14,7 @@
 		D71D7037235584740004CFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71D7036235584740004CFE4 /* Assets.xcassets */; };
 		D71D703A235584740004CFE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71D7038235584740004CFE4 /* LaunchScreen.storyboard */; };
 		D71D7045235584740004CFE4 /* FxpalBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71D7044235584740004CFE4 /* FxpalBrowserUITests.swift */; };
+		D7F3D02D235793F200CFF9F7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F3D02C235793F200CFF9F7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		D71D7040235584740004CFE4 /* FxpalBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FxpalBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71D7044235584740004CFE4 /* FxpalBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxpalBrowserUITests.swift; sourceTree = "<group>"; };
 		D71D7046235584740004CFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71D704F23558DD20004CFE4 /* playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D7F3D02C235793F200CFF9F7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		D71D702C235584720004CFE4 /* FxpalBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				D71D704F23558DD20004CFE4 /* playground.playground */,
 				D71D702D235584720004CFE4 /* AppDelegate.swift */,
 				D71D702F235584720004CFE4 /* SceneDelegate.swift */,
 				D71D7031235584720004CFE4 /* ViewController.swift */,
@@ -86,6 +90,7 @@
 				D71D7036235584740004CFE4 /* Assets.xcassets */,
 				D71D7038235584740004CFE4 /* LaunchScreen.storyboard */,
 				D71D703B235584740004CFE4 /* Info.plist */,
+				D7F3D02C235793F200CFF9F7 /* TableViewController.swift */,
 			);
 			path = FxpalBrowser;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				D71D7032235584720004CFE4 /* ViewController.swift in Sources */,
 				D71D702E235584720004CFE4 /* AppDelegate.swift in Sources */,
 				D71D7030235584720004CFE4 /* SceneDelegate.swift in Sources */,
+				D7F3D02D235793F200CFF9F7 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +375,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yulius.FxpalBrowser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxpal.FxpalBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yulius.FxpalBrowser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxpal.FxpalBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

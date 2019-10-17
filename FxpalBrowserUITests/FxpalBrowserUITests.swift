@@ -31,6 +31,11 @@ class FxpalBrowserUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testFooIsOne() {
+        let foo = 1
+        XCTAssert(foo == 1, "foo is not 1")
+    }
 
     func testLaunchPerformance() {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
